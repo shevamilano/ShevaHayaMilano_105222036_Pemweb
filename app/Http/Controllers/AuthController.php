@@ -10,12 +10,12 @@ class AuthController extends Controller {
     public function auth (Request $request) {
 
         $nomorSatu = new NomorSatu();
-        return $nomorSatu->auth($request);
+        return $nomorSatu->Auth($request);
     }
 
     public function logout (Request $request) {
 
         $nomorSatu = new NomorSatu();
-        return $nomorSatu->logout($request);
+        return $nomorSatu->Logout($request);
     }
 }
